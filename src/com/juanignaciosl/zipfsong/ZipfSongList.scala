@@ -3,6 +3,11 @@ package com.juanignaciosl.zipfsong
 import org.scalatest.FlatSpec
 import org.scalatest.matchers.ShouldMatchers
 
+/**
+ * @author juanignaciosl
+ * @see https://www.spotify.com/es/jobs/tech/zipfsong/
+ *
+ */
 class ZipSongListTest extends FlatSpec with ShouldMatchers {
 
   "Quality of position 1, 10 listenings" should "be 10" in {
